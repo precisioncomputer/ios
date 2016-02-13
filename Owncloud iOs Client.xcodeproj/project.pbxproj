@@ -3728,7 +3728,7 @@
 				LastUpgradeCheck = 0610;
 				TargetAttributes = {
 					1324297715ADBB3700DF823E = {
-						DevelopmentTeam = 9B5WD74GWJ;
+						DevelopmentTeam = JZ8X5FZN7R;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -4939,7 +4939,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "Owncloud iOs Client/Owncloud iOs Client.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: VINCENT'S, INC";
 				CODE_SIGN_RESOURCE_RULES_PATH = "";
 				DEFINES_MODULE = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -4969,9 +4969,10 @@
 					"$(SRCROOT)",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.precisioncomp.ohcdrive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "9cd84d0f-bfed-470c-a965-789d6a1a4d4c";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9cd84d0f-bfed-470c-a965-789d6a1a4d4c";
 				SDKROOT = iphoneos;
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Owncloud iOs Client/Owncloud iOS Client-Bridging-Header.h";
@@ -4989,7 +4990,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "Owncloud iOs Client/Owncloud iOs Client.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: VINCENT'S, INC";
 				CODE_SIGN_RESOURCE_RULES_PATH = "";
 				DEFINES_MODULE = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -5014,9 +5015,10 @@
 					"$(SRCROOT)",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.precisioncomp.ohcdrive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "9cd84d0f-bfed-470c-a965-789d6a1a4d4c";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9cd84d0f-bfed-470c-a965-789d6a1a4d4c";
 				SDKROOT = iphoneos;
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Owncloud iOs Client/Owncloud iOS Client-Bridging-Header.h";

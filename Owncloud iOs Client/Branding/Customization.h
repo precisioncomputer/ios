@@ -23,10 +23,10 @@
 #define k_send_feedback @"http://owncloud.com/mobile/feedback"
 
 //Hide url server
-#define k_hide_url_server NO
+#define k_hide_url_server YES
 
 //Set a default url server. It must be obligaroy if we hide the url server (#define k_hide_url_server YES)
-#define k_default_url_server @""
+#define k_default_url_server @"https://drive.ohcmail.org"
 
 //Show multiaccount or disconnect
 #define k_multiaccount_available YES
@@ -51,12 +51,12 @@
 #define k_oauth_client_id @"" //the same in k_oauth_login
 
 //Mail feedback
-#define k_mail_feedback @"apps@owncloud.com"
+#define k_mail_feedback @"support@precision-computer.com"
 
 //Social
-#define k_download_url_short @"http://bit.ly/13haDjE"
-#define k_download_url_long @"https://itunes.apple.com/us/app/owncloud/id543672169?mt=8"
-#define k_twitter_user @"@ownCloud"
+#define k_download_url_short @""
+#define k_download_url_long @""
+#define k_twitter_user @""
 
 //Minimun files until show letters on separators
 #define k_minimun_files_to_show_separators 20
@@ -68,7 +68,7 @@
 #define k_show_help_option_on_settings YES
 
 //Show social
-#define k_show_recommend_option_on_settings YES
+#define k_show_recommend_option_on_settings NO
 
 //Show feedback
 #define k_show_feedback_option_on_settings YES
@@ -77,7 +77,7 @@
 #define k_show_imprint_option_on_settings NO
 
 //Buy more storage company name
-#define k_company_name_buy_more_storage @""
+#define k_company_name_buy_more_storage @"Precision Computer"
 
 //Customize UITabBar
 #define k_is_customize_uitabbar YES
@@ -128,7 +128,7 @@
 #define k_url_link_on_login @"https://owncloud.com/mobile/new"
 
 //User-Agent
-#define k_user_agent @"Mozilla/5.0 (iOS) ownCloud-iOS/"
+#define k_user_agent @"Mozilla/5.0 (iOS) OHC-Drive-iOS/"
 
 //Enable/Disable Background uploads and download (NSURLSession or NSOperation)
 #define k_is_background_active YES
